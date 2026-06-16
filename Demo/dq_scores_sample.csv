@@ -1,0 +1,3 @@
+Reference ID,Score,Total Rows,Failed Rows,Scanned Time,Exception File Path
+DQO-TEST,100,10500,1260,2026-05-08T08:00:00.000Z,/exceptions/firstname_check_2026-06-08.csv
+DQO-TEST,88,1261,1260,2026-04-08T08:00:00.000Z,/exceptions/firstname_check_2026-06-08.csv

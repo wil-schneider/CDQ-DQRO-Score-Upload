@@ -1,0 +1,25 @@
+# Credentials — never commit
+env
+.env
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Streamlit local secrets
+.streamlit/secrets.toml
+
+# Large/generated files
+*.pdf
+*.zip
+*.xlsx
+*.tmp
+
+# OS
+.DS_Store
+Thumbs.db
