@@ -8,7 +8,10 @@ import zipfile
 import pandas as pd
 import shutil
 import sys
-import pyodbc
+try:
+    import pyodbc
+except ImportError:
+    pyodbc = None
 import logging
 import csv
 
